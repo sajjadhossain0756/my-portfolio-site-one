@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  /* color declaration */
+  .color-primary{
+    color: #fd6e0a;
+  }
+  .color-secondary{
+    background-color: #fff8f3;
+  }
+  .dark-2{
+    color: #474747;
+  }
+  .dark-3{
+    color: #757575;
+  }
+  .mr-style{
+    margin-right: 0px;
+  }
+  /* button declaration */
+  .btn-primary{
+    background-color: #fd6e0a;
+    color: white;
+    min-width: 150px;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    padding: 18px 35px;
+    font-size: 20px;
+  }
+  .btn-secondary{
+    background-color: transparent;
+    color: #fd6e0a;
+    width: 150px;
+    height: 64px;
+    border-radius: 5px;
+    border: 3px solid #fd6e0a;
+    padding: 18px 35px;
+    font-size: 20px;
+  }
+
+  /* Nav styles start */
+  header{
+    background: url(./images/developer.png), url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: left top, bottom right;
+    height: 676px;
+  }
+  nav .nav-title{
+    font-size: 45px;
+    font-weight: 600;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 180px 0px 230px;
+    align-items: center;
+  }
+  nav ul{
+    display: flex;
+    align-items: center;
+  }
+  nav ul>li{
+    list-style: none;
+    margin-right: 20px;
+  }
+  nav li a{
+    text-decoration: none;
+    
+  }
+  /* Hero section start */
+  .hero-section{
+    display: flex;
+    margin-left: 230px;
+    margin-right: 38px;
+    height: 556px;
+    align-items: center;
+  }
+  .content-column{
+    margin-top: 106px;
+  }
+  .content-column .subtitle{
+    font-weight: 400;
+    font-size: 45px;
+  }
+  .content-column .hero-title{
+    font-size: 55px;
+    font-weight: 700;
+  }
+  .image-column{
+    margin-top: 46px;
+    width: 484px;
+    height: 556px;
+  }
+  .image-column img{
+    width: 100%;
+    height: 100%
+  }
+  .hero-btn{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
