@@ -202,3 +202,153 @@ form textarea{
 .footer-btn{
   width: 150px;
 }
+.hide{
+  display: none;
+}
+/* responsive disign for mobile phone */
+@media screen and (max-width:576px) {
+     /* styles for nav section */
+     header{
+       background-image: none;
+       height: auto;
+       margin-bottom: 20px;
+     }
+     nav{
+      flex-direction: column;
+      justify-content: center;
+      margin: 0px auto;
+     }
+     /* styles for hero-image section */
+     .hero-section{
+      flex-direction: column;
+      margin: 0px 50px;
+      height: auto;
+     }
+     .content-column{
+      margin-top: 50px;
+     }
+     .image-column{
+      margin-top: 40px;
+      width: 360px;
+      height: 450px;
+     }
+     .btn-primary, .btn-secondary{
+      font-size: 18px;
+      padding: 18px 20px;
+     }
+
+     /* styles for about section */
+     .about-section{
+      margin: 0px 10px;
+      padding: 20px;
+     }
+     .about-container{
+      padding: 10px;
+     }
+     .address-container{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+     }
+     /* styles for skill section  */
+     .skill-container{
+      margin: 10px;
+     }
+     .skill-cards{
+      flex-direction: column;
+     }
+    /* styles for qualification section */
+    .qualification{
+      margin: 10px;
+    }
+    .qualification-container{
+      flex-direction: column;
+    }
+    /* styles for foorter section */
+    .footer-container{
+      margin: 0px 10px;
+      padding: 40px 0px;
+      flex-direction: column;
+    }
+    .footer-content{
+      width: 360px;
+      padding: 0px 20px;
+    }
+    .footer-form{
+      padding: 0px 20px;
+    }
+    .footer-form form{
+      width: 360px;
+      gap: 25px;
+    }
+}
+/* responsive design for medium device or tablet */
+@media screen and (min-width:577px) and (max-width:992px) {
+      /* styles for nav section */
+     header{
+      background-image: none;
+      height: auto;
+      margin-bottom: 20px;
+     }
+     nav{
+      justify-content: center;
+      margin: 0px 50px;
+     }
+     /* styles for hero-image section */
+     .hero-section{
+      margin: 0px 50px;
+      height: auto;
+     }
+     .content-column{
+      margin-top: 50px;
+      width: 400px;
+     }
+     .image-column{
+      margin-top: 40px;
+      width: 360px;
+      height: 450px;
+     }
+      /* styles for about section */
+     .about-section{
+      margin: 0px 50px;
+      padding: 40px;
+     }
+     .about-container{
+      padding: 20px;
+     }
+     .address-container{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+     }
+     
+      /* styles for skills section */
+      .skill-container{
+        margin: 50px;
+       }
+      .skill-cards{
+        flex-wrap: wrap;
+      }
+      /* styles for qualification section */
+      .qualification{
+      margin: 50px;
+      }
+      .qualification-container{
+      flex-direction: column;
+      }
+      /* styles for foorter section */
+      .footer-container{
+      margin: 0px 50px;
+      padding: 40px 0px;
+      flex-direction: column;
+      }
+      .footer-content{
+      width: 90%;
+      padding: 0px 20px;
+      }
+      .footer-form{
+      padding: 0px 20px;
+      }
+      .footer-form form{
+      gap: 25px;
+      width: 100%;
+      }
+}
