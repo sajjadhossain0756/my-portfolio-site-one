@@ -270,14 +270,14 @@ form textarea{
       flex-direction: column;
     }
     .footer-content{
-      width: 360px;
+      width: 340px;
       padding: 0px 20px;
     }
     .footer-form{
       padding: 0px 20px;
     }
     .footer-form form{
-      width: 360px;
+      width: 340px;
       gap: 25px;
     }
 }
